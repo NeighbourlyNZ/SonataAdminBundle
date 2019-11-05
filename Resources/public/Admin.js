@@ -639,3 +639,6 @@ jQuery(document).on('sonata-admin-append-form-element', function(e) {
     Admin.setup_icheck(e.target);
     Admin.setup_collection_counter(e.target);
 });
+
+window.Admin = Admin;
+
